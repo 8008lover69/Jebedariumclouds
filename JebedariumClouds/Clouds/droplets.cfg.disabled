@@ -1,0 +1,145 @@
+// JebedariumClouds 3.0 — droplet configs for the raymarched cloud layers.
+// One shared template reused per body via name so we don't duplicate the
+// whole node five times; edit values here to change droplet look for all
+// bodies at once.
+
+EVE_DROPLETS_CONFIG
+{
+	OBJECT
+	{
+		name = droplets-cloud-Kerbin
+		highSpeedTimeRandomness = 1
+		translucency = 0.97
+		scale = 1
+		triplanarTransitionSharpness = 3
+		sideNoiseScale = 5
+		sideLowSpeedNoiseStrength = 0.008
+		sideHighSpeedNoiseStrength = 0.008
+		maxModulationSpeed = 120
+		highSpeedStreakRatio = 1.0
+		lowSpeedStreakRatio = 1.0
+		topNoiseStrength = 0.005
+		topNoiseScale = 8
+		speedIncreaseFactor = 0.15
+		specularStrength = 0.8
+		dryingSpeed = 0.05
+		fadeOutEndSpeed = 250
+		noise
+		{
+			value = JebedariumClouds/Textures/common/dropletsBlue
+		}
+		sideDropletLayers
+		{
+			Item
+			{
+				name = Fast droplets
+				fallSpeed = 0.15
+				dropletToTrailAspectRatio = 0.003
+				streakRatio = 0.07
+				scale = 0.8
+			}
+			Item
+			{
+				name = Slow droplets
+				fallSpeed = 0.0687
+				dropletToTrailAspectRatio = 0.03
+				streakRatio = 0.01
+				scale = 0.72
+			}
+		}
+		topDropletLayers
+		{
+			Item
+			{
+				name = Top droplets
+				speed = 0.1
+			}
+		}
+	}
+	OBJECT
+	{
+		name = droplets-cloud-Laythe
+		highSpeedTimeRandomness = 1
+		translucency = 0.96
+		scale = 1
+		triplanarTransitionSharpness = 3
+		sideNoiseScale = 5
+		sideLowSpeedNoiseStrength = 0.008
+		sideHighSpeedNoiseStrength = 0.008
+		maxModulationSpeed = 110
+		highSpeedStreakRatio = 1.0
+		lowSpeedStreakRatio = 1.0
+		topNoiseStrength = 0.006
+		topNoiseScale = 8
+		speedIncreaseFactor = 0.15
+		specularStrength = 0.75
+		dryingSpeed = 0.06
+		fadeOutEndSpeed = 240
+		noise
+		{
+			value = JebedariumClouds/Textures/common/dropletsBlue
+		}
+		sideDropletLayers
+		{
+			Item
+			{
+				name = Fast droplets
+				fallSpeed = 0.14
+				dropletToTrailAspectRatio = 0.003
+				streakRatio = 0.07
+				scale = 0.8
+			}
+		}
+		topDropletLayers
+		{
+			Item
+			{
+				name = Top droplets
+				speed = 0.1
+			}
+		}
+	}
+	OBJECT
+	{
+		name = droplets-cloud-Eve
+		highSpeedTimeRandomness = 1
+		translucency = 0.98
+		scale = 1.2
+		triplanarTransitionSharpness = 3
+		sideNoiseScale = 6
+		sideLowSpeedNoiseStrength = 0.01
+		sideHighSpeedNoiseStrength = 0.01
+		maxModulationSpeed = 130
+		highSpeedStreakRatio = 1.0
+		lowSpeedStreakRatio = 1.0
+		topNoiseStrength = 0.006
+		topNoiseScale = 9
+		speedIncreaseFactor = 0.18
+		specularStrength = 0.6
+		dryingSpeed = 0.03
+		fadeOutEndSpeed = 260
+		noise
+		{
+			value = JebedariumClouds/Textures/common/dropletsBlue
+		}
+		sideDropletLayers
+		{
+			Item
+			{
+				name = Fast droplets
+				fallSpeed = 0.12
+				dropletToTrailAspectRatio = 0.003
+				streakRatio = 0.08
+				scale = 0.85
+			}
+		}
+		topDropletLayers
+		{
+			Item
+			{
+				name = Top droplets
+				speed = 0.08
+			}
+		}
+	}
+}

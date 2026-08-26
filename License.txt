@@ -1,0 +1,40 @@
+
+
+Copyright (c) 2026 8008lover69
+
+This work (the JebRaymarch Clouds mod for Kerbal Space Program — its plugin
+source code, shader source code, configuration files, and assets)
+is licensed under the terms below, based on Creative Commons Attribution 4.0
+International (CC BY 4.0).
+
+You are free to:
+
+  - Share — copy and redistribute this mod in any medium or format.
+  - Adapt — remix, transform, and build upon this mod for any purpose,
+    even commercially.
+
+Under the following terms:
+
+  - Attribution — You must give appropriate credit to the original author,
+    **8008lover69**, provide a link to the original source if available, and
+    indicate if changes were made. This attribution must be included in any
+    redistribution of this mod or any derivative of it, in a place a user
+    would reasonably see it (e.g. a README, mod description page, or
+    in-game credits).
+  - No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing anything
+    this license permits.
+
+No warranty: this mod is provided "as is", without warranty of any kind,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and non-infringement. In
+no event shall the author be liable for any claim, damages, or other
+liability arising from, out of, or in connection with the mod or the use or
+other dealings in the mod.
+
+Full legal text of the license this is based on:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Third-party software this mod is compatible with (e.g. Scatterer) is
+distributed under its own respective license and is not covered by this
+license.
